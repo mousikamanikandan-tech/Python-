@@ -1,0 +1,7 @@
+data = input("data1: ").split(',')
+s = set(data)
+
+element = input("element: ")
+
+print("sorted set:", sorted(s))
+print("is", element, "in set:", element in s)
