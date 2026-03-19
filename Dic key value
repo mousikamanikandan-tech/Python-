@@ -1,0 +1,7 @@
+keys = input("data1: ").split(',')
+values = input("data2: ").split(',')
+
+d = dict(zip(keys, values))
+
+for k, v in d.items():
+    print(k, "->", v)
