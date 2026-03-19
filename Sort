@@ -1,0 +1,8 @@
+data = [int(x) for x in input("Enter numbers: ").split()]
+
+for i in range(len(data)):
+    for j in range(i + 1, len(data)):
+        if data[i] > data[j]:
+            data[i], data[j] = data[j], data[i]
+
+print("Sorted list:", data)
