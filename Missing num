@@ -1,0 +1,7 @@
+data = [int(x) for x in input("Enter numbers: ").split()]
+n = len(data) + 1
+
+total = n * (n + 1) // 2
+missing = total - sum(data)
+
+print("Missing number:", missing)
