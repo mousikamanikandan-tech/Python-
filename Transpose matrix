@@ -1,0 +1,10 @@
+r = int(input("Rows: "))
+c = int(input("Columns: "))
+
+matrix = [[int(input()) for _ in range(c)] for _ in range(r)]
+
+transpose = [[matrix[j][i] for j in range(r)] for i in range(c)]
+
+print("Transpose:")
+for row in transpose:
+    print(row)
