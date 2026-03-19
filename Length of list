@@ -1,0 +1,7 @@
+data = input("Enter elements: ").split()
+count = 0
+
+for _ in data:
+    count += 1
+
+print("Length:", count)
