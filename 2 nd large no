@@ -1,0 +1,6 @@
+data = [int(x) for x in input("Enter numbers: ").split()]
+
+data = list(set(data))
+data.sort()
+
+print("Second largest:", data[-2])
