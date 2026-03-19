@@ -1,0 +1,4 @@
+data = input("Enter numbers: ").split()
+unique = list(set(data))
+
+print("Without duplicates:", unique)
