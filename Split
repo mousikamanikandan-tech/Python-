@@ -1,0 +1,3 @@
+data = input("data: ")
+lst = [int(x) for x in data.split()]
+print("contents:", lst)
