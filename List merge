@@ -1,0 +1,5 @@
+l1 = [int(x) for x in input("List 1: ").split()]
+l2 = [int(x) for x in input("List 2: ").split()]
+
+merged = l1 + l2
+print("Merged list:", merged)
